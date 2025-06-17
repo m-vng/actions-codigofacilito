@@ -9,7 +9,7 @@ jobs:
   deploy-codigofacilito:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4   # Download code in the virtual machine
       - run: echo "Pull of code"
       - run: echo "Run migrations"
       - run: echo "Generaate binary"
