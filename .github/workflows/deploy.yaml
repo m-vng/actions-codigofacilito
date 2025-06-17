@@ -1,0 +1,17 @@
+name: "Deploy CodigoFacilito"
+
+# trigger
+on: 
+  push:
+    branches: ["main"]  # Cuando se haga un push sobre la rama main, ejecute este wokrkflow
+
+jobs:
+  deploy-codigofacilito:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Pull of code"
+      - run: echo "Run migrations"
+      - run: echo "Generaate binary"
+      - run: echo "Publish version"
+  # send-notificacion:
+  # test-code: 
