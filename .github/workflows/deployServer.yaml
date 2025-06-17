@@ -7,4 +7,10 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            - run: echo "Hi world"
+            - run: echo "First job in the same yaml"
+
+    second_jobs:
+        runs-on: ubuntu-latest
+
+        steps:
+            - run: echo "Second job in the same yaml"
