@@ -20,4 +20,4 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-            - run: echo "Second job in the same yaml"
+            - run: echo "Third job in the same yaml"
