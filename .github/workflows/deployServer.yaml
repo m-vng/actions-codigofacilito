@@ -1,0 +1,10 @@
+name: Deploy to server
+
+on: push # It is possible to put directly
+
+jobs: 
+    first_jobs:
+        runs-on: ubuntu-latest
+
+        steps:
+            - run: echo "Hi world"
