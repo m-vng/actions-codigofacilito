@@ -14,3 +14,10 @@ jobs:
 
         steps:
             - run: echo "Second job in the same yaml"
+
+    third_jobs:
+        needs: second_jobs # Run this job after running the second_job
+        runs-on: ubuntu-latest
+
+        steps:
+            - run: echo "Second job in the same yaml"
