@@ -3,7 +3,7 @@ name: "Deploy CodigoFacilito"
 # trigger
 on: 
   push:
-    branches: ["main"]  # Cuando se haga un push sobre la rama main, ejecute este wokrkflow
+    branches: ["master"]  # Cuando se haga un push sobre la rama main, ejecute este wokrkflow
 
 jobs:
   deploy-codigofacilito:
