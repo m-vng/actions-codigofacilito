@@ -16,7 +16,7 @@ jobs:
             - run: echo "Second job in the same yaml"
 
     third_jobs:
-        needs: [first_jobs, second_jobs] # Run this job after running the second_job
+        needs: [first_jobs, second_jobs] # Run this job after running the jobs indicated
         runs-on: ubuntu-latest
 
         steps:
